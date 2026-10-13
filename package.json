@@ -1,0 +1,30 @@
+{
+  "license": "0BSD",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~54.0.37",
+    "expo-status-bar": "~3.0.9",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-paper": "4.9.2",
+    "@expo/vector-icons": "^15.0.3",
+    "@supabase/supabase-js": "*",
+    "@opentelemetry/api": "^1.0.0",
+    "expo-image-picker": "~17.0.11",
+    "expo-video": "~3.0.16",
+    "expo-linear-gradient": "~15.0.8",
+    "expo-camera": "~17.0.10",
+    "@expo-google-fonts/poppins": "*",
+    "react-native-safe-area-context": "~5.6.0",
+    "expo-device": "~8.0.10",
+    "expo-notifications": "~0.32.17",
+    "expo-constants": "~18.0.14"
+  },
+  "private": true
+}
